@@ -15,8 +15,8 @@ OSX=$(test "`uname`" == "Darwin" && echo "x")
 if [[ -d "$HOME/Dropbox/labs/dotfiles" ]]; then
     msg_checking "Checking dotfiles directory"
 else
-    msg_install "Cloning" "git@github.com:gbrlsepulveda/dotfiles.git"
-    git clone git@github.com:gbrlsepulveda/dotfiles.git $HOME/dotfiles
+    msg_install "Cloning" "git@github.com:robertoporlan/dotfiles.git"
+    git clone git@github.com:robertoporlan/dotfiles.git $HOME/dotfiles
     ok "OK"
 fi
 
